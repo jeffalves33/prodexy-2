@@ -93,7 +93,7 @@ export function SegmentsSection() {
           </h2>
           <p className="body-lg">
             Veja como o Prodexy se adapta a diferentes segmentos, 
-            mantendo o Core Financeiro como base universal.
+            mantendo o Base Financeiro como base universal.
           </p>
         </motion.div>
 
@@ -154,7 +154,7 @@ export function SegmentsSection() {
 
                 <div className="space-y-4">
                   <p className="text-sm font-medium text-muted-foreground uppercase tracking-wider">
-                    Módulos recomendados
+                    Funcionalidades recomendadas
                   </p>
                   <div className="space-y-3">
                     {activeSegment.modules.map((module, index) => {
@@ -187,7 +187,7 @@ export function SegmentsSection() {
                 <div className="p-4 rounded-xl bg-primary/10 border border-primary/20 mb-4">
                   <div className="flex items-center gap-2 mb-3">
                     <Wallet className="w-4 h-4 text-primary" />
-                    <span className="text-sm font-medium">Core Financeiro</span>
+                    <span className="text-sm font-medium">Base Financeiro</span>
                     <span className="text-xs px-2 py-0.5 rounded-full bg-primary/20 text-primary ml-auto">Base</span>
                   </div>
                   <div className="grid grid-cols-2 gap-2">

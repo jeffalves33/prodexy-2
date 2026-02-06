@@ -16,7 +16,7 @@ const businessTypes = [
   { id: 'outros', label: 'Outros', icon: MoreHorizontal },
 ];
 
-const WHATSAPP_NUMBER = '5511999999999';
+const WHATSAPP_NUMBER = '5527988655236';
 const WHATSAPP_MESSAGE = encodeURIComponent('Olá! Gostaria de falar com um especialista sobre a Prodexy.');
 
 export function Hero({ onOpenDiagnosis }: HeroProps) {
@@ -30,8 +30,8 @@ export function Hero({ onOpenDiagnosis }: HeroProps) {
         <div className="absolute inset-0 bg-gradient-to-b from-background/0 via-background/50 to-background" />
       </div>
 
-      <div className="section-container relative z-10 py-16 lg:py-24">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+      <div className="section-container relative z-10 py-4 lg:py-4">
+        <div className="grid lg:grid-cols-2 gap-6 lg:gap-6 items-center">
           {/* Left Content */}
           <motion.div
             initial={{ opacity: 0, y: 40 }}
@@ -47,16 +47,16 @@ export function Hero({ onOpenDiagnosis }: HeroProps) {
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20"
               >
                 <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-                <span className="text-sm font-medium text-primary">Sistemas sob medida</span>
+                <span className="text-sm font-medium text-primary">Desenhamos uma solução para sua necessidade</span>
               </motion.div>
 
               <h1 className="heading-xl">
-                O sistema do seu negócio.{' '}
-                <span className="gradient-text">Do seu jeito.</span>
+                Um sistema feito para o seu negócio.{' '}
+                <span className="gradient-text">Do jeito que você trabalha.</span>
               </h1>
 
               <p className="body-lg max-w-xl">
-                Controle real do financeiro + módulos sob demanda. 
+                Controle real do financeiro + funcionalidades sob demanda. 
                 Comece com o essencial e evolua sem refazer tudo.
               </p>
             </div>
@@ -75,10 +75,10 @@ export function Hero({ onOpenDiagnosis }: HeroProps) {
                 className="btn-secondary"
               >
                 <MessageCircle className="w-5 h-5" />
-                Falar com especialista
+                Falar no WhatsApp
               </a>
               <button onClick={onOpenDiagnosis} className="btn-primary group">
-                Solicitar diagnóstico
+                Pedir orçamento
                 <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
               </button>
             </motion.div>

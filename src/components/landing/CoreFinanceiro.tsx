@@ -73,7 +73,7 @@ export function CoreFinanceiro() {
             <span className="gradient-text">tudo passa pelo financeiro.</span>
           </h2>
           <p className="body-lg">
-            O Core Financeiro é a base de todo sistema Prodexy. 
+            A base Financeiro é a base de todo sistema Prodexy. 
             Controle absoluto das suas finanças, do jeito que seu negócio precisa.
           </p>
         </motion.div>

@@ -54,7 +54,7 @@ export function ModulesSection() {
             <span className="gradient-text">do seu jeito.</span>
           </h2>
           <p className="body-lg">
-            Ative apenas os módulos que fazem sentido para o seu negócio. 
+            Ative apenas as funcionalidades que fazem sentido para o seu negócio. 
             Sem pagar pelo que não usa. Sem complexidade desnecessária.
           </p>
         </motion.div>
@@ -75,7 +75,7 @@ export function ModulesSection() {
                 </div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2">
-                    <h4 className="font-semibold">Core Financeiro</h4>
+                    <h4 className="font-semibold">Base Financeiro</h4>
                     <span className="text-xs px-2 py-0.5 rounded-full bg-primary/20 text-primary">Sempre ativo</span>
                   </div>
                   <p className="text-sm text-muted-foreground">Base do sistema: entradas, saídas, caixa</p>
@@ -141,7 +141,7 @@ export function ModulesSection() {
                 <div className="flex items-center justify-between mb-6">
                   <div>
                     <p className="text-sm font-medium">Seu Sistema</p>
-                    <p className="text-xs text-muted-foreground">{activeModules.length + 1} módulos ativos</p>
+                    <p className="text-xs text-muted-foreground">{activeModules.length + 1} funcionalidades ativas</p>
                   </div>
                   <div className="px-3 py-1.5 rounded-full bg-primary/20 text-primary text-xs font-medium">
                     Preview
@@ -152,7 +152,7 @@ export function ModulesSection() {
                 <div className="glass-card p-4 rounded-xl mb-4 border-primary/20">
                   <div className="flex items-center gap-3 mb-3">
                     <Wallet className="w-5 h-5 text-primary" />
-                    <span className="font-medium">Core Financeiro</span>
+                    <span className="font-medium">Base Financeiro</span>
                   </div>
                   <div className="grid grid-cols-2 gap-2">
                     <div className="p-2 rounded-lg bg-green-400/10 text-center">
@@ -193,7 +193,7 @@ export function ModulesSection() {
 
                 {activeModules.length === 0 && (
                   <div className="text-center py-8 text-muted-foreground">
-                    <p className="text-sm">Selecione módulos para visualizar</p>
+                    <p className="text-sm">Selecione funcionalidades para visualizar</p>
                   </div>
                 )}
               </div>

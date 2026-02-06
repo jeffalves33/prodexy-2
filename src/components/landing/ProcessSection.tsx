@@ -19,13 +19,13 @@ const steps = [
     icon: Code2,
     number: '03',
     title: 'Construção Modular',
-    description: 'Desenvolvemos com módulos independentes. Você acompanha cada entrega.',
+    description: 'Desenvolvemos com funcionalidades independentes. Você acompanha cada entrega.',
   },
   {
     icon: Rocket,
     number: '04',
     title: 'Evolução Contínua',
-    description: 'Novos módulos quando precisar. Sem refazer o que já funciona.',
+    description: 'Novas funcionalidades quando precisar. Sem refazer o que já funciona.',
   },
 ];
 

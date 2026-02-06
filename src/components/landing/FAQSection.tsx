@@ -10,27 +10,27 @@ import {
 const faqs = [
   {
     question: "Serve para o meu tipo de negócio?",
-    answer: "Sim! O Prodexy foi projetado para ser universal. O Core Financeiro atende qualquer negócio que tenha entradas e saídas. Os módulos plugáveis (estoque, agenda, vendas, etc.) são ativados conforme sua necessidade específica. Se você tem um negócio, temos uma solução."
+    answer: "Sim! O Prodexy foi projetado para ser universal. A base Financeiro atende qualquer negócio que tenha entradas e saídas. As funcionalidades plugáveis (estoque, agenda, vendas, etc.) são ativados conforme sua necessidade específica. Se você tem um negócio, temos uma solução."
   },
   {
     question: "Dá pra começar simples e crescer depois?",
-    answer: "Exatamente essa é a proposta. Você começa com o Core Financeiro e os módulos essenciais para sua operação atual. Conforme o negócio cresce ou novas necessidades surgem, ativamos novos módulos sem precisar refazer nada do que já funciona."
+    answer: "Exatamente essa é a proposta. Você começa com o Base Financeiro e as funcionalidades essenciais para sua operação atual. Conforme o negócio cresce ou novas necessidades surgem, ativamos novas funcionalidadess sem precisar refazer nada do que já funciona."
   },
   {
     question: "É instalável no celular?",
     answer: "Sim! O sistema é um PWA (Progressive Web App), ou seja, funciona no navegador mas pode ser instalado como um aplicativo no celular. Acesso rápido, notificações e funcionamento offline em funções críticas."
   },
   {
-    question: "Como funciona a personalização?",
-    answer: "A personalização vai além de cores e logo. Definimos juntos: quais módulos ativar, quais campos são relevantes para seu negócio, quais relatórios fazem sentido, e configuramos perfis de usuário com permissões específicas (dono, gerente, funcionário)."
+    question: "Como fazemos a personalização?",
+    answer: "A personalização vai além de cores e logo. Definimos juntos: quais funcionalidades ativar, quais campos são relevantes para seu negócio, quais relatórios fazem sentido, e configuramos perfis de usuário com permissões específicas (dono, gerente, funcionário)."
   },
   {
     question: "Como vocês fazem o diagnóstico?",
-    answer: "O diagnóstico é uma conversa rápida (15-20 min) onde entendemos seu fluxo atual, suas dores, e o que você gostaria de controlar melhor. A partir disso, mapeamos quais módulos fazem sentido e propomos um caminho de implementação."
+    answer: "O diagnóstico é uma conversa rápida (15-20 min) onde entendemos seu fluxo atual, suas dores, e o que você gostaria de controlar melhor. A partir disso, mapeamos quais funcionalidades fazem sentido e propomos um caminho de implementação."
   },
   {
     question: "Quanto tempo leva para ter o sistema funcionando?",
-    answer: "Depende da complexidade, mas nosso foco é velocidade com qualidade. Um sistema com Core Financeiro + 2-3 módulos pode estar rodando em 2-4 semanas. Entregas são incrementais: você já usa enquanto evoluímos."
+    answer: "Depende da complexidade, mas nosso foco é velocidade com qualidade. Um sistema com Base Financeiro + 2-3 funcionalidades pode estar rodando em 2-4 semanas. Entregas são incrementais: você já usa enquanto evoluímos."
   },
 ];
 
@@ -50,7 +50,7 @@ export function FAQSection() {
           className="text-center max-w-3xl mx-auto mb-16"
         >
           <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm font-medium mb-6">
-            FAQ
+            Dúvidas
           </span>
           <h2 className="heading-lg mb-6">
             Perguntas{' '}

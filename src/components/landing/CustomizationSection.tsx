@@ -13,7 +13,7 @@ const permissions = [
   { feature: 'Editar financeiro', owner: true, manager: true, employee: false },
   { feature: 'Ver relatórios', owner: true, manager: true, employee: false },
   { feature: 'Gerenciar usuários', owner: true, manager: false, employee: false },
-  { feature: 'Configurar módulos', owner: true, manager: false, employee: false },
+  { feature: 'Configurar funcionalidades', owner: true, manager: false, employee: false },
 ];
 
 export function CustomizationSection() {

@@ -8,11 +8,11 @@ interface HeaderProps {
 }
 
 const navItems = [
-  { label: 'Core Financeiro', href: '#core' },
-  { label: 'Módulos', href: '#modules' },
-  { label: 'Como Funciona', href: '#process' },
+  { label: 'Base Financeiro', href: '#core' },
+  { label: 'Funcionalidades', href: '#modules' },
+  { label: 'Como fazemos', href: '#process' },
   { label: 'Segmentos', href: '#segments' },
-  { label: 'FAQ', href: '#faq' },
+  { label: 'Dúvidas', href: '#faq' },
 ];
 
 const WHATSAPP_NUMBER = '5511999999999';
@@ -72,10 +72,10 @@ export function Header({ onOpenDiagnosis }: HeaderProps) {
               className="btn-secondary text-sm"
             >
               <MessageCircle className="w-4 h-4" />
-              Falar com especialista
+              Falar no WhatsApp
             </a>
             <button onClick={onOpenDiagnosis} className="btn-primary text-sm">
-              Solicitar diagnóstico
+              Pedir orçamento
             </button>
           </div>
 
@@ -117,7 +117,7 @@ export function Header({ onOpenDiagnosis }: HeaderProps) {
                   className="btn-secondary justify-center"
                 >
                   <MessageCircle className="w-4 h-4" />
-                  Falar com especialista
+                  Falar no WhatsApp
                 </a>
                 <button
                   onClick={() => {
@@ -126,7 +126,7 @@ export function Header({ onOpenDiagnosis }: HeaderProps) {
                   }}
                   className="btn-primary justify-center"
                 >
-                  Solicitar diagnóstico
+                  Pedir orçamento
                 </button>
               </div>
             </div>

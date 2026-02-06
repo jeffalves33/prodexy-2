@@ -43,10 +43,10 @@ export function FinalCTA({ onOpenDiagnosis }: FinalCTAProps) {
                 className="btn-secondary text-lg px-8 py-4"
               >
                 <MessageCircle className="w-5 h-5" />
-                Falar com especialista
+                Falar no WhatsApp
               </a>
               <button onClick={onOpenDiagnosis} className="btn-primary text-lg px-8 py-4 group">
-                Solicitar diagnóstico
+                Pedir orçamento
                 <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
               </button>
             </div>

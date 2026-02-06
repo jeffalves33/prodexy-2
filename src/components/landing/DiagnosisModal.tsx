@@ -131,7 +131,7 @@ export function DiagnosisModal({ isOpen, onClose }: DiagnosisModalProps) {
               {/* Header */}
               <div className="flex items-center justify-between mb-6">
                 <div>
-                  <h3 className="text-xl font-bold">Solicitar Diagnóstico</h3>
+                  <h3 className="text-xl font-bold">Pedir orçamento</h3>
                   <p className="text-sm text-muted-foreground">2 minutos para transformar seu negócio</p>
                 </div>
                 <button

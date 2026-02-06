@@ -72,11 +72,11 @@ export function MockupDisplay({ selectedBusiness }: MockupDisplayProps) {
           </div>
         </div>
 
-        {/* Core Financeiro - Always visible */}
+        {/* Base Financeiro - Always visible */}
         <div className="mb-4">
           <p className="text-xs font-medium text-primary mb-3 flex items-center gap-2">
             <Wallet className="w-3.5 h-3.5" />
-            CORE FINANCEIRO
+            BASE FINANCEIRO
           </p>
           <div className="grid grid-cols-2 gap-3">
             <div className="glass-card p-3 rounded-xl">
@@ -99,7 +99,7 @@ export function MockupDisplay({ selectedBusiness }: MockupDisplayProps) {
         {/* Dynamic Modules */}
         <div>
           <p className="text-xs font-medium text-muted-foreground mb-3">
-            MÓDULOS ATIVOS
+            FUNCIONALIDADES ATIVAS
           </p>
           <AnimatePresence mode="wait">
             <motion.div

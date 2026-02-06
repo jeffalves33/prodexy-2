@@ -15,7 +15,7 @@ export function Footer() {
           <p className="text-sm text-muted-foreground text-center md:text-right">
             © {new Date().getFullYear()} Prodexy. Todos os direitos reservados.
             <br />
-            <span className="text-xs">Sistemas sob medida para seu negócio.</span>
+            <span className="text-xs">Sistema feito sob medida para seu negócio.</span>
           </p>
         </div>
       </div>

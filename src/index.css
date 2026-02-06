@@ -159,7 +159,7 @@
   }
 
   .section-container {
-    @apply max-w-7xl mx-auto px-6 lg:px-8;
+    @apply w-full px-6 lg:px-8;
   }
 
   .heading-xl {
