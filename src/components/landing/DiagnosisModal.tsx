@@ -36,7 +36,7 @@ const formSchema = z.object({
 
 type FormData = z.infer<typeof formSchema>;
 
-const WHATSAPP_NUMBER = '5511999999999';
+const WHATSAPP_NUMBER = '551127988655236';
 
 export function DiagnosisModal({ isOpen, onClose }: DiagnosisModalProps) {
   const [formData, setFormData] = useState<FormData>({
@@ -164,7 +164,7 @@ export function DiagnosisModal({ isOpen, onClose }: DiagnosisModalProps) {
                     type="tel"
                     value={formData.whatsapp}
                     onChange={(e) => setFormData(prev => ({ ...prev, whatsapp: e.target.value }))}
-                    placeholder="(11) 99999-9999"
+                    placeholder="(27) 99999-9999"
                     className="w-full px-4 py-3 rounded-xl bg-muted/50 border border-border/50 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary transition-all"
                   />
                   {errors.whatsapp && <p className="text-sm text-red-400 mt-1">{errors.whatsapp}</p>}

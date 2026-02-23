@@ -6,7 +6,7 @@ interface FinalCTAProps {
   onOpenDiagnosis: () => void;
 }
 
-const WHATSAPP_NUMBER = '5511999999999';
+const WHATSAPP_NUMBER = '5527988655236';
 const WHATSAPP_MESSAGE = encodeURIComponent('Olá! Gostaria de falar com um especialista sobre a Prodexy.');
 
 export function FinalCTA({ onOpenDiagnosis }: FinalCTAProps) {

@@ -1,10 +1,10 @@
 import { motion, AnimatePresence } from 'framer-motion';
-import { 
-  TrendingUp, 
-  TrendingDown, 
-  Wallet, 
-  Calendar, 
-  Package, 
+import {
+  TrendingUp,
+  TrendingDown,
+  Wallet,
+  Calendar,
+  Package,
   ShoppingCart,
   Users,
   ClipboardList,
@@ -51,14 +51,18 @@ export function MockupDisplay({ selectedBusiness }: MockupDisplayProps) {
     <div className="relative">
       {/* Glow effects */}
       <div className="absolute -inset-4 bg-gradient-to-r from-primary/20 to-secondary/20 rounded-3xl blur-3xl opacity-50" />
-      
+
       {/* Main mockup container */}
       <div className="relative glass-card p-6 rounded-3xl">
         {/* Header */}
         <div className="flex items-center justify-between mb-6">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">P</span>
+            <div className="w-10 h-10 rounded-xl from-primary to-secondary flex items-center justify-center">
+              <img
+                src="/icon_black_transp.png"
+                alt="Prodexy"
+                className="w-6 h-6 object-contain"
+              />
             </div>
             <div>
               <p className="text-sm font-medium">Prodexy</p>

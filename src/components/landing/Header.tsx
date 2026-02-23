@@ -15,7 +15,7 @@ const navItems = [
   { label: 'Dúvidas', href: '#faq' },
 ];
 
-const WHATSAPP_NUMBER = '5511999999999';
+const WHATSAPP_NUMBER = '5527988655236';
 const WHATSAPP_MESSAGE = encodeURIComponent('Olá! Gostaria de falar com um especialista sobre a Prodexy.');
 
 export function Header({ onOpenDiagnosis }: HeaderProps) {
@@ -32,18 +32,21 @@ export function Header({ onOpenDiagnosis }: HeaderProps) {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        isScrolled
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isScrolled
           ? 'bg-background/80 backdrop-blur-xl border-b border-border/50'
           : 'bg-transparent'
-      }`}
+        }`}
     >
       <div className="section-container">
         <nav className="flex items-center justify-between h-20">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-xl font-display">P</span>
+            <div className="w-10 h-10 rounded-xl from-primary to-secondary flex items-center justify-center">
+              <img
+                src="/icon_black_transp.png"
+                alt="Prodexy"
+                className="w-6 h-6 object-contain"
+              />
             </div>
             <span className="text-xl font-bold font-display tracking-tight">
               Prodexy

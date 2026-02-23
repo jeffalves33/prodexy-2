@@ -4,14 +4,18 @@ export function Footer() {
       <div className="section-container">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-xl font-display">P</span>
+            <div className="w-10 h-10 rounded-xl from-primary to-secondary flex items-center justify-center">
+              <img
+                src="/icon_black_transp.png"
+                alt="Prodexy"
+                className="w-6 h-6 object-contain"
+              />
             </div>
             <span className="text-xl font-bold font-display tracking-tight">
               Prodexy
             </span>
           </div>
-          
+
           <p className="text-sm text-muted-foreground text-center md:text-right">
             © {new Date().getFullYear()} Prodexy. Todos os direitos reservados.
             <br />
